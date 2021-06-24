@@ -1,0 +1,41 @@
+.content{
+  font-family: 'Nunito', sans-serif;
+
+    .container{
+        .row{
+
+            ol{
+                li{
+                    margin-top: 2rem;
+                    padding: 2rem;
+                    font-weight: bold;
+                    font-size: 1.3rem;
+                    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.096);
+                    border-radius: 10px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:700px) {
+    .content{
+        padding: 0 1.5rem;
+        .container{
+            .row{
+    
+                ol{
+                    li{
+                        margin-top: 2rem;
+                        padding: 1rem;
+                        font-weight: bold;
+                        font-size: .9rem;
+                        box-shadow: 0 6px 10px rgba(0, 0, 0, 0.096);
+                        border-radius: 10px;
+                    }
+                }
+            }
+        }
+    }
+    
+}

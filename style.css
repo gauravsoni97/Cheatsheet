@@ -1,0 +1,311 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merienda&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+* a {
+  text-decoration: none;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+nav {
+  font-family: 'Merienda', cursive;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #0c0a29;
+  padding: 1rem 0;
+}
+
+nav .navleft {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+nav .navleft .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: white;
+}
+
+nav .navleft .logo h2 {
+  font-size: 1.5rem;
+}
+
+nav .navleft .logo img {
+  width: 10%;
+  border-radius: 50%;
+  margin-right: 1rem;
+}
+
+nav .navright .myprofile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+nav .navright .myprofile h3 {
+  margin-left: 1rem;
+  color: white;
+  font-size: 1.4rem;
+}
+
+nav .navright .myprofile img {
+  border-radius: 50%;
+  border: 2px solid #cacaca;
+  width: 10%;
+}
+
+@media screen and (max-width: 700px) {
+  nav {
+    padding: 2rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    background-color: #0c0a29;
+  }
+  nav .navleft {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  nav .navleft .logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    color: white;
+  }
+  nav .navleft .logo h2 {
+    font-size: 1rem;
+    line-height: normal;
+  }
+  nav .navleft .logo img {
+    width: 30%;
+    border-radius: 50%;
+    margin-right: 1rem;
+  }
+  nav .navright .myprofile {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  nav .navright .myprofile h3 {
+    margin-left: 1rem;
+    color: white;
+    font-size: 1rem;
+  }
+  nav .navright .myprofile img {
+    border-radius: 50%;
+    border: 2px solid #cacaca;
+    width: 30%;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  nav {
+    padding: 1rem 1.5rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    background-color: #0c0a29;
+  }
+  nav .navleft {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  nav .navleft .logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    color: white;
+  }
+  nav .navleft .logo h2 {
+    font-size: .8rem;
+    line-height: normal;
+    font-weight: 600;
+  }
+  nav .navleft .logo img {
+    width: 28%;
+    border-radius: 50%;
+    margin-right: 1rem;
+  }
+  nav .navright .myprofile {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  nav .navright .myprofile h3 {
+    margin-left: .7rem;
+    color: white;
+    font-size: .7rem;
+  }
+  nav .navright .myprofile img {
+    border-radius: 50%;
+    border: 2px solid #cacaca;
+    width: 28%;
+  }
+}
+
+.content {
+  font-family: 'Nunito', sans-serif;
+}
+
+.content .container .row ol li {
+  margin-top: 2rem;
+  padding: 2rem;
+  font-weight: bold;
+  font-size: 1.3rem;
+  -webkit-box-shadow: 0 6px 10px rgba(0, 0, 0, 0.096);
+          box-shadow: 0 6px 10px rgba(0, 0, 0, 0.096);
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 700px) {
+  .content {
+    padding: 0 1.5rem;
+  }
+  .content .container .row ol li {
+    margin-top: 2rem;
+    padding: 1rem;
+    font-weight: bold;
+    font-size: .9rem;
+    -webkit-box-shadow: 0 6px 10px rgba(0, 0, 0, 0.096);
+            box-shadow: 0 6px 10px rgba(0, 0, 0, 0.096);
+    border-radius: 10px;
+  }
+}
+
+h1 {
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 55px;
+  letter-spacing: 0em;
+}
+
+h2 {
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: 0em;
+}
+
+h3 {
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 39px;
+  letter-spacing: 0em;
+}
+
+h4 {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 34px;
+  letter-spacing: 0em;
+}
+
+h5 {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0.02em;
+}
+
+h6 {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.005em;
+}
+/*# sourceMappingURL=style.css.map */
